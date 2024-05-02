@@ -42,6 +42,20 @@ const config = {
         docs: {
           routeBasePath: 'docs',
           sidebarPath: './sidebars.js',
+          versions: {
+            current: {
+              label: "Latest",
+              path: "latest",
+              banner: 'none',
+              badge: true,
+            },
+            '0.20': {
+              label: "v0.20",
+              path: "v0.20",
+              banner: 'none',
+              badge: true,
+            },
+          },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -69,7 +83,20 @@ const config = {
         path: 'demo',
         routeBasePath: 'demo',
         sidebarPath: './sidebarsDemo.js',
-        // ... other options
+        versions: {
+          current: {
+            label: "Latest",
+            path: "latest",
+            banner: 'none',
+            badge: true,
+          },
+          '3.4': {
+            label: "3.4",
+            path: "3.4",
+            banner: 'none',
+            badge: true,
+          },
+        },
       },
     ],
   ],
